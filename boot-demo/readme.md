@@ -57,5 +57,6 @@ show table;  //查看数据库中的表
 select * from test;  //查询表中的内容
 ```
 
-使用`mvn clean install`打包jar包。/n
+使用`mvn clean install`打包jar包。
+
 使用`java -jar path/to/your/jar-file.jar`运行jar文件，在命令后面添加`--server.port=8081`可以临时更改端口。
