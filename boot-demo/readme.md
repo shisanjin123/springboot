@@ -49,5 +49,13 @@ CREATE TABLE student (
 );
 ```
 
-使用`mvn clean install`打包jar包。
+```bash
+mysql -u root -p password  //进入数据库，password是数据库root账户的密码
+show database;  //查看所有数据库
+use test;  //使用test数据库
+show table;  //查看数据库中的表
+select * from test;  //查询表中的内容
+```
+
+使用`mvn clean install`打包jar包。/n
 使用`java -jar path/to/your/jar-file.jar`运行jar文件，在命令后面添加`--server.port=8081`可以临时更改端口。
